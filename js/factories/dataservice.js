@@ -89,9 +89,10 @@ function trueForce(){
 
             while (i--) {
 				
-				if(setShuffle==true)
+
 				{
-                j = Math.floor(Math.random() * (i + 1));
+               if(setShuffle==true){j = Math.floor(Math.random() * (i + 1));}
+               if(setShuffle==false){j = i}
 
                 // swap randomly chosen element with current element
                 temp = array[i];

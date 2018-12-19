@@ -1,6 +1,7 @@
 /*
  * IIFE to encapsulate code and avoid global variables
  */
+
 (function(){
 
     /*
@@ -47,6 +48,7 @@
         vm.calculatePerc = calculatePerc; // named function defined below
         vm.calculateScore = calculateScore; // named function defined below
         vm.activeQuestion = 0;
+		vm.showResultConfig=DataService.showResultConfig	
 
         function calculatePerc(){
             /*
